@@ -3,6 +3,8 @@ import sys
 from matplotlib import pyplot as plt
 
 def analyze(filename, outputfile):
+    '''This is a comment about this python function
+    and it can span multiple lines'''
     data = np.loadtxt(fname=filename, delimiter=',')
     
     plt.figure(figsize=(10.0, 3.0))
